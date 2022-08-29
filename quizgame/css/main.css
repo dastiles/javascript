@@ -1,0 +1,27 @@
+body{
+    
+    overflow: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+h3,h1{
+    text-align: center;
+}
+
+
+button{
+    margin: 20px 100px;
+    background-color: none;
+    border:  1px solid black;
+    padding: 10px 15px;
+    border-radius: 5%;
+}
+
+button:hover{
+    background-color: aliceblue;
+}
+

@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    overflow: hidden;
+    color: white;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.myform{
+    display: block;
+}
+
+h2{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.txt_input{
+    padding: 10px 5px;
+    width: 250px;
+    margin: 15px 0px;
+    outline: none;
+    border: none;
+    background: white;
+}
+
+.btn{
+    color: white;
+    background: orange;   
+    padding: 10px 40px;
+    font-size: 18px;
+}

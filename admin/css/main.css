@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+body {
+  background: #000;
+  color: white;
+}
+
+header {
+  height: 10vh;
+  padding: 0 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #363434;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .logo {
+  width: 40%;
+}
+
+header nav {
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+header nav ul {
+  list-style: none;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin: 0;
+  padding: 0 10px;
+}
+
+.sign {
+  height: 80vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.sign .fg input {
+  padding: 10px 50px;
+  border: 2px solid #363434;
+  margin: 15px 0px;
+  outline: none;
+}
+
+.sign #btn {
+  background-color: #363434;
+  padding: 8px 15px;
+  outline: none;
+  border: none;
+  color: black;
+}
+
+.sign #btn:hover {
+  color: white;
+}
+/*# sourceMappingURL=main.css.map */

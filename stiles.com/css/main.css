@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  max-width: 960px;
+  margin: auto;
+}
+
+.nav-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 12vh;
+}
+
+.nav-items #logo a {
+  text-decoration: none;
+  color: #eb660d;
+  font-size: 30px;
+  font-family: 'Libre Baskerville', 'sans serif';
+  font-weight: 700;
+}
+
+.nav-items ul {
+  list-style: none;
+}
+
+.nav-items ul li a {
+  text-decoration: none;
+  font-family: 'Libre Baskerville', 'sans serif';
+  font-weight: 400;
+  font-size: 14px;
+  color: #0e0d0d;
+}
+
+.nav-items ul li a:hover {
+  color: #eb660d;
+  font-size: 16px;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+main {
+  margin-top: 40px;
+}
+
+main .image-container {
+  width: 60%;
+}
+
+main .image-container img {
+  width: 100%;
+}
+
+.content {
+  width: 49px;
+  height: 70px;
+  color: red;
+  -webkit-transform: translateX("1000px");
+          transform: translateX("1000px");
+  background-color: black;
+}
+/*# sourceMappingURL=main.css.map */
